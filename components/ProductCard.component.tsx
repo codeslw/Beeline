@@ -52,7 +52,7 @@ export const ProductCard: React.FC<IProductCard> = (props) => {
     }
 
     return (
-        <div className={`product flex flex-col px-4 py-2 w-full md:w-full md:flex-row md:space-x-2 md:items-start md:p-4 border-l-[#fff] border border-gray-ghost last-of-type:border-r-[#fff]  md:border-t-[#fff]`}>
+        <div className={`product flex flex-col px-4 py-2 w-full md:w-full md:flex-row md:space-x-2 md:items-start md:p-4 border-l-[#fff] border border-gray-ghost even:border-r-[#fff] md:even:border-r-gray-ghost  md:border-t-[#fff]`}>
             <div className="flex items-start space-x-1">
                 <div className="flex flex-col items-center relative">
 

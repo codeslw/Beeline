@@ -26,7 +26,7 @@ export default function Footer() {
                     <div className="text-sm leading-4 text-[#EBF2FA]">
                         © 2022  ООО Unitel
                     </div>
-                    <div className="text-sm leading-4 text-[#EBF2FA]">
+                    <div className="hidden md:block text-sm leading-4 text-[#EBF2FA]">
                         Политика конфиденциальности
                     </div>
 

@@ -60,7 +60,7 @@ export const ProductCard: React.FC<IProductCard> = (props) => {
                         <div onClick={handlePrevButton} className="w-9 h-9 rounded-full bg-[#fff] opacity-30 flex items-center justify-center absolute top-[50%] -translate-y-[50%] -left-[15%] z-10 cursor-pointer md:hidden">
                             <ArrowLeft />
                         </div>
-                        <Image fill src={"/images/iphone.png"} alt="" />
+                        <Image fill src={"/images/Iphone.png"} alt="" />
                         <div onClick={handleNextButton} className="w-9 h-9 rounded-full flex items-center justify-center absolute top-[50%] -translate-y-[50%] -right-[25%] z-10 opacity-30 cursor-pointer md:hidden">
                             <ArrowRight />
                         </div>

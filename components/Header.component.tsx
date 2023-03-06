@@ -94,7 +94,7 @@ export default function Header() {
                                 </div>
                                 <div className="flex flex-col items-center cursor-pointer">
                                     <div className="w-6 h-6 relative">
-                                        <div className="w-4 h-4 rounded-full absolute top-0 right-0 translate-x-2 bg-[#E10054] flex justify-center items-center text-white text-xs">
+                                        <div className="w-4 h-4 z-20 rounded-full absolute top-0 right-0 translate-x-2 bg-[#E10054] flex justify-center items-center text-white text-xs">
                                             1
                                         </div>
                                         <Compare />

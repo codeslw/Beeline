@@ -35,6 +35,9 @@ export default function Header() {
                         <Like />
                     </div>
                     <div className="w-6 h-6 relative">
+                        <div className="w-4 h-4 rounded-full absolute top-0 right-0 translate-x-2 bg-[#E10054] flex justify-center items-center text-white text-xs">
+                            1
+                        </div>
                         <Compare />
                     </div>
                     <div className="hidden mobile:block w-6 h-6 ">

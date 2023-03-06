@@ -345,7 +345,7 @@ export default function Home() {
             }} className="w-12 h-12 absolute rounded-full hover:bg-gray-200 flex justify-center items-center cursor-pointer left-0 -translate-x-[100%] top-[50%] -translate-y-[50%]">
               <ArrowLeft />
             </div>
-            <div id="recomended" className="w-full pl-4 scroll-smooth pr-3 mt-2 md:mt-6 xl:md-9 md:px-0 grid grid-cols-2 sm:grid-cols-3  md:grid-cols-auto-recomended md:gap-x-3 lg:gap-x-4  md:grid-flow-col  md:overflow-x-scroll scrollbar-hide snap-x snap-always snap-mandatory relative">
+            <div id="recomended" className="w-full scroll-smooth mt-2 md:mt-6 xl:md-9 md:px-0 grid grid-cols-2 sm:grid-cols-3  md:grid-cols-auto-recomended md:gap-x-3 lg:gap-x-4  md:grid-flow-col  md:overflow-x-scroll scrollbar-hide snap-x snap-always snap-mandatory relative">
               {new Array(10).fill(1).slice(0, showRecomended).map((item, idx) => (
                 <ProductRecomended
                   key={idx}

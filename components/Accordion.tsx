@@ -16,11 +16,11 @@ export default function Accordion(props: IAccordion) {
 
     return (
         <div className='app-container'>
-            <div className="w-full border-b border-gray-ghost h-[3.5rem] md:h-[60px] flex items-center justify-between">
+            <div onClick={() => {
+                setOpen(!open)
+            }} className="w-full border-b border-gray-ghost h-[3.5rem] cursor-pointer md:h-[60px] flex items-center justify-between">
                 <div className="text-xl leading-6 md:text-2xl md:leading-7 font-bold">{props.title}</div>
-                <div onClick={() => {
-                    setOpen(!open)
-                }} className={`w-6 h-6 transition-all duration-500 ${open ? "rotate-180" : "rotate-0"}`}>
+                <div className={`w-6 h-6 transition-all duration-500 ${open ? "rotate-180" : "rotate-0"}`}>
                     <ArrowDown />
                 </div>
             </div>
